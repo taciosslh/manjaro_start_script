@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# TODO
+
 # $ sudo nano /etc/pacman.conf
 # ParallelDownloads = 5
 
@@ -11,6 +13,8 @@ PACKAGES=(
     # Dev
     sqlitebrowser
     dbeaver
+    docker
+    jq
     # virtualbox tem que habilitar algumas flag de kernel
     # gnomeboxes
 
@@ -30,7 +34,10 @@ PACKAGES=(
     obsidian
     peek
     fd
+    neofetch
+    spotify-launcher
 )
+
 AUR_PACKAGES=(
     # Dev
     mongodb-compass
@@ -44,6 +51,8 @@ AUR_PACKAGES=(
     # anki-official-binary-bundle
     anydesk-bin
     torbrowser-launcher
+    
+    papirus-folders-git
 
 )
 
@@ -117,3 +126,8 @@ asdf global python 3.12.6
 
 
 # TODO replace VSCODE with opensource
+
+# sudo usermod -a -G docker $USER
+# sudo systemctl enable docker
+
+# https://github.com/PapirusDevelopmentTeam/papirus-folders
