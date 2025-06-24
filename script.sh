@@ -61,6 +61,8 @@ AUR_PACKAGES=(
 # Ensure sudo
 sudo -v
 
+sudo pacman -Syyu
+
 # Install basic tools
 sudo pacman -S base-devel yay appimagelauncher --noconfirm
 
