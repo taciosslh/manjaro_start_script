@@ -75,14 +75,14 @@ yay -Sc --noconfirm
 # Install AppImage Software
 
 # Insomnia
-# wget https://github.com/Kong/insomnia/releases/download/core%402022.6.0/Insomnia.Core-2022.6.0.AppImage -O Insomnia.AppImage && \
-# ail-cli integrate Insomnia.AppImage
-# # Beekeper
-# wget https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v3.7.10/Beekeeper-Studio-3.7.10.AppImage -O beekeeper.AppImage && \ 
-# ail-cli integrate beekeeper.AppImage
-# # Krita
-# wget https://download.kde.org/stable/krita/5.1.3/krita-5.1.3-x86_64.appimage -O krita.AppImage && \ 
-# ail-cli integrate krita.AppImage
+wget https://github.com/Kong/insomnia/releases/download/core%402022.6.0/Insomnia.Core-2022.6.0.AppImage -O Insomnia.AppImage && \
+ail-cli integrate Insomnia.AppImage
+# Beekeper
+wget https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v3.7.10/Beekeeper-Studio-3.7.10.AppImage -O beekeeper.AppImage && \ 
+ail-cli integrate beekeeper.AppImage
+# Krita
+wget https://download.kde.org/stable/krita/5.1.3/krita-5.1.3-x86_64.appimage -O krita.AppImage && \ 
+ail-cli integrate krita.AppImage
 
 # Configure ZSH
 
