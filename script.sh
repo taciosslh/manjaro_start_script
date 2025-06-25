@@ -15,7 +15,7 @@ PACKAGES=(
     dbeaver
     docker
     jq
-    # virtualbox tem que habilitar algumas flag de kernel
+    virtualbox #tem que habilitar algumas flag de kernel
     # gnomeboxes
 
     # Web
@@ -28,6 +28,7 @@ PACKAGES=(
     audacity
     calibre
     obs-studio
+    darktable
 
     # General Tools
     flameshot
