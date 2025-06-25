@@ -42,7 +42,7 @@ AUR_PACKAGES=(
     # Dev
     # mongodb-compass
     # mongosh-bin
-    asdf-vm
+    # asdf-vm
     visual-studio-code-bin
     # android-studio
 
@@ -109,19 +109,19 @@ echo "export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --foll
 # Install DevEnvironment
 # ======================
 
-source /opt/asdf-vm/asdf.sh
+# source /opt/asdf-vm/asdf.sh
 
-echo 'source /opt/asdf-vm/asdf.sh' >> ~/.zshrc 
+# echo 'source /opt/asdf-vm/asdf.sh' >> ~/.zshrc 
 
-# NodeJS
-asdf plugin add nodejs
-asdf install nodejs lts-hydrogen
-asdf global nodejs lts-hydrogen
+# # NodeJS
+# asdf plugin add nodejs
+# asdf install nodejs lts-hydrogen
+# asdf global nodejs lts-hydrogen
 
-# python
-asdf plugin add python
-asdf install python 3.12.6
-asdf global python 3.12.6
+# # python
+# asdf plugin add python
+# asdf install python 3.12.6
+# asdf global python 3.12.6
 
 # golang
 # asdf plugin add golang
