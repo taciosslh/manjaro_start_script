@@ -1,5 +1,5 @@
 sudo -v
-sudo sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 10/g' /etc/pacman.conf
+sudo sed -i 's/ParallelDownloads = 4/ParallelDownloads = 10/g' /etc/pacman.conf
 sudo pacman-mirrors --continent
 sudo pacman -Syyu
 sudo cp -R /mnt/start .
