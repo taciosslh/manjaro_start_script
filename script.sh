@@ -66,7 +66,7 @@ sudo pacman -Syyu
 # Install basic tools
 sudo pacman -S base-devel yay  --noconfirm
 
-yay -S appimagelauncher --noconfirm
+# yay -S appimagelauncher --noconfirm
 
 # Install Packages
 sudo pacman -S ${PACKAGES[@]} --noconfirm
