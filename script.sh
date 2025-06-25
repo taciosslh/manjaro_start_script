@@ -61,7 +61,7 @@ AUR_PACKAGES=(
 # Ensure sudo
 sudo -v
 
-sudo pacman -Syyu
+sudo pacman -Syyu --noconfirm
 
 # Install basic tools
 sudo pacman -S base-devel yay  --noconfirm
